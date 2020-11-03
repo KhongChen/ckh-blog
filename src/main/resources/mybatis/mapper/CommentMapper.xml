@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ckh.blog.mapper.CommentMapper">
+    <insert id="saveComment" parameterType="comment">
+        insert into t_comment(nickname, email, content, avatar, create_time, blog_id, parent_comment_id, admin_comment)
+        values (#{nickName}, #{email}, #{content}, #{avatar}, #{createTime}, #{blog.id}, #{parentComment.id}, #{adminComment})
+    </insert>
+    <!--获得父评论-->
+    <select id="getCommentByParentCommentId" parameterType="java.lang.Long" resultMap="commentMap">
+        select id, nickname, email, content, avatar, create_time,parent_comment_id, admin_comment from t_comment where id = #{id}
+    </select>
+
+    <resultMap id="commentMap" type="comment">
+        <id property="id" column="id"/>
+        <result property="nickName" column="nickname"/>
+        <result property="email" column="email"/>
+        <result property="content" column="content"/>
+        <result property="avatar" column="avatar"/>
+        <result property="createTime" column="create_time"/>
+        <result property="adminComment" column="admin_comment"/>
+        <association property="parentComment" javaType="comment" column="">
+            <result property="id" column="parent_comment_id"/>
+            <result property="nickName" column="parent_nickName"/>
+        </association>
+        <collection property="replyComments" ofType="comment" column="id" select="findChildComment"/>
+    </resultMap>
+    <select id="findChildComment" resultMap="commentMap">
+        select c1.id, c1.nickname, c1.email, c1.content, c1.avatar, c1.create_time, c1.parent_comment_id, c1.admin_comment,c2.nickname as parent_nickName from t_comment c1 join t_comment c2 on c1.parent_comment_id = c2.id where c1.parent_comment_id = #{pid}
+    </select>
+
+    <!--取得某博客下所有评论-->
+    <select id="getCommentListByIdAndParentCommentNull" parameterType="java.lang.Long" resultMap="commentMap">
+         select id, nickname, email, content, avatar, create_time, parent_comment_id, admin_comment from t_comment where parent_comment_id is null and blog_id = #{blogId} order by create_time
+    </select>
+</mapper>

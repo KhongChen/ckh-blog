@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ckh.blog.mapper.TypeMapper">
+    <insert id="saveType" parameterType="type">
+        insert into t_type(id,name) values (#{id}, #{name});
+    </insert>
+    <delete id="deleteType" parameterType="java.lang.Long">
+        delete from t_type where id = #{id};
+    </delete>
+    <select id="getTypeByName" parameterType="java.lang.String" resultType="type">
+        select * from t_type where name = #{name};
+    </select>
+    <select id="getTypeById" parameterType="java.lang.Long" resultType="type">
+        select * from t_type where id = #{id};
+    </select>
+    <!--查询所有分类-->
+    <select id="getTypeList" resultType="type">
+        select * from t_type t
+    </select>
+    <!--分类排序-->
+    <select id="getTypeTop" parameterType="java.lang.Integer" resultMap="indexType">
+        select b.type_id tid,t.name,count(*) blog_num from t_blog b, t_type t
+        where t.id = b.type_id group by b.type_id order by blog_num desc limit #{count};
+    </select>
+    <update id="updateType" parameterType="type">
+        update t_type set name = #{name} where id = #{id};
+    </update>
+
+    <!-- 一对多:分类->博客 -->
+    <resultMap id="indexType" type="com.ckh.blog.vo.IndexType">
+        <id property="id" column="tid"/>
+        <result property="name" column="name"/>
+        <result property="blogNum" column="blog_num"/>
+    </resultMap>
+</mapper>

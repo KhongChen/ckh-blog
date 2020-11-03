@@ -1,0 +1,163 @@
+2020-09-10 18:43:46.585  INFO 15588 --- [restartedMain] com.ckh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-7NMSMS2 with PID 15588 (F:\IntelliJ IDEA\blog\target\classes started by ckh in F:\IntelliJ IDEA\blog)
+2020-09-10 18:43:46.588  INFO 15588 --- [restartedMain] com.ckh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2020-09-10 18:43:46.649  INFO 15588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-10 18:43:46.650  INFO 15588 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-10 18:43:48.030  INFO 15588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-10 18:43:48.038  INFO 15588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-10 18:43:48.039  INFO 15588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-10 18:43:48.118  INFO 15588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-10 18:43:48.119  INFO 15588 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1467 ms
+2020-09-10 18:43:48.874  INFO 15588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:43:48.966  INFO 15588 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-10 18:43:49.309  INFO 15588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-10 18:43:49.349  INFO 15588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-10 18:43:49.368  INFO 15588 --- [restartedMain] com.ckh.blog.BlogApplication             : Started BlogApplication in 3.189 seconds (JVM running for 4.371)
+2020-09-10 18:44:07.141  INFO 15588 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:44:07.142  INFO 15588 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-09-10 18:44:07.352  INFO 15588 --- [restartedMain] com.ckh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-7NMSMS2 with PID 15588 (F:\IntelliJ IDEA\blog\target\classes started by ckh in F:\IntelliJ IDEA\blog)
+2020-09-10 18:44:07.352  INFO 15588 --- [restartedMain] com.ckh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2020-09-10 18:44:07.862  INFO 15588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-10 18:44:07.864  INFO 15588 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-10 18:44:07.865  INFO 15588 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-10 18:44:07.922  INFO 15588 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-10 18:44:07.922  INFO 15588 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 568 ms
+2020-09-10 18:44:08.326  INFO 15588 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:44:08.371  INFO 15588 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-10 18:44:08.748  INFO 15588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-10 18:44:08.765  INFO 15588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-10 18:44:08.769  INFO 15588 --- [restartedMain] com.ckh.blog.BlogApplication             : Started BlogApplication in 1.463 seconds (JVM running for 23.773)
+2020-09-10 18:44:08.771  INFO 15588 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-10 18:44:48.482  INFO 4088 --- [restartedMain] com.ckh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-7NMSMS2 with PID 4088 (F:\IntelliJ IDEA\blog\target\classes started by ckh in F:\IntelliJ IDEA\blog)
+2020-09-10 18:44:48.484  INFO 4088 --- [restartedMain] com.ckh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2020-09-10 18:44:48.544  INFO 4088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-10 18:44:48.545  INFO 4088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-10 18:44:49.983  INFO 4088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-10 18:44:49.993  INFO 4088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-10 18:44:49.993  INFO 4088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-10 18:44:50.094  INFO 4088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-10 18:44:50.095  INFO 4088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1550 ms
+2020-09-10 18:44:50.873  INFO 4088 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:44:50.966  INFO 4088 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-10 18:44:51.511  INFO 4088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-10 18:44:51.554  INFO 4088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-10 18:44:51.566  INFO 4088 --- [restartedMain] com.ckh.blog.BlogApplication             : Started BlogApplication in 3.613 seconds (JVM running for 4.868)
+2020-09-10 18:44:55.050  INFO 4088 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-10 18:44:55.051  INFO 4088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-10 18:44:55.061  INFO 4088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-09-10 18:44:59.901  INFO 4088 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-09-10 18:49:41.961  INFO 4088 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:49:41.962  INFO 4088 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-09-10 18:49:41.968  INFO 4088 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-09-10 18:49:42.211  INFO 4088 --- [restartedMain] com.ckh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-7NMSMS2 with PID 4088 (F:\IntelliJ IDEA\blog\target\classes started by ckh in F:\IntelliJ IDEA\blog)
+2020-09-10 18:49:42.211  INFO 4088 --- [restartedMain] com.ckh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2020-09-10 18:49:42.586  INFO 4088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-10 18:49:42.587  INFO 4088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-10 18:49:42.587  INFO 4088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-10 18:49:42.618  INFO 4088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-10 18:49:42.619  INFO 4088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 405 ms
+2020-09-10 18:49:42.954  INFO 4088 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:49:42.993  INFO 4088 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-10 18:49:43.214  INFO 4088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-10 18:49:43.232  INFO 4088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-10 18:49:43.236  INFO 4088 --- [restartedMain] com.ckh.blog.BlogApplication             : Started BlogApplication in 1.055 seconds (JVM running for 296.538)
+2020-09-10 18:49:43.238  INFO 4088 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-10 18:50:01.028  INFO 4088 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:50:01.029  INFO 4088 --- [Thread-19] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-09-10 18:50:01.229  INFO 4088 --- [restartedMain] com.ckh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-7NMSMS2 with PID 4088 (F:\IntelliJ IDEA\blog\target\classes started by ckh in F:\IntelliJ IDEA\blog)
+2020-09-10 18:50:01.229  INFO 4088 --- [restartedMain] com.ckh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2020-09-10 18:50:01.550  INFO 4088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-10 18:50:01.551  INFO 4088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-10 18:50:01.551  INFO 4088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-10 18:50:01.570  INFO 4088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-10 18:50:01.570  INFO 4088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 332 ms
+2020-09-10 18:50:01.920  INFO 4088 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:50:01.962  INFO 4088 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-10 18:50:02.196  INFO 4088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-10 18:50:02.211  INFO 4088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-10 18:50:02.215  INFO 4088 --- [restartedMain] com.ckh.blog.BlogApplication             : Started BlogApplication in 1.031 seconds (JVM running for 315.517)
+2020-09-10 18:50:02.216  INFO 4088 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-10 18:50:23.160  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-7NMSMS2 with PID 16028 (F:\IntelliJ IDEA\blog\target\classes started by ckh in F:\IntelliJ IDEA\blog)
+2020-09-10 18:50:23.163  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2020-09-10 18:50:23.231  INFO 16028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-10 18:50:23.231  INFO 16028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-10 18:50:24.595  INFO 16028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-10 18:50:24.602  INFO 16028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-10 18:50:24.603  INFO 16028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-10 18:50:24.684  INFO 16028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-10 18:50:24.685  INFO 16028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1454 ms
+2020-09-10 18:50:25.483  INFO 16028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:50:25.576  INFO 16028 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-10 18:50:25.935  INFO 16028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-10 18:50:26.016  INFO 16028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-10 18:50:26.037  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : Started BlogApplication in 3.435 seconds (JVM running for 4.675)
+2020-09-10 18:50:48.906  INFO 16028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-10 18:50:48.906  INFO 16028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-10 18:50:48.918  INFO 16028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-09-10 18:50:49.999  INFO 16028 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:50:50.000  INFO 16028 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-09-10 18:50:50.183  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-7NMSMS2 with PID 16028 (F:\IntelliJ IDEA\blog\target\classes started by ckh in F:\IntelliJ IDEA\blog)
+2020-09-10 18:50:50.183  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2020-09-10 18:50:50.476  INFO 16028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-10 18:50:50.477  INFO 16028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-10 18:50:50.477  INFO 16028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-10 18:50:50.505  INFO 16028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-10 18:50:50.505  INFO 16028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 319 ms
+2020-09-10 18:50:50.858  INFO 16028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:50:50.904  INFO 16028 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-10 18:50:51.142  INFO 16028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-10 18:50:51.157  INFO 16028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-10 18:50:51.161  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : Started BlogApplication in 1.009 seconds (JVM running for 29.799)
+2020-09-10 18:50:51.163  INFO 16028 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-10 18:50:51.235  INFO 16028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-10 18:50:51.236  INFO 16028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-10 18:50:51.248  INFO 16028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-09-10 18:50:56.035  INFO 16028 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-09-10 18:51:09.993  INFO 16028 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:51:09.994  INFO 16028 --- [Thread-19] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2020-09-10 18:51:09.999  INFO 16028 --- [Thread-19] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-09-10 18:51:10.211  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-7NMSMS2 with PID 16028 (F:\IntelliJ IDEA\blog\target\classes started by ckh in F:\IntelliJ IDEA\blog)
+2020-09-10 18:51:10.211  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2020-09-10 18:51:10.534  INFO 16028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-10 18:51:10.535  INFO 16028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-10 18:51:10.535  INFO 16028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-10 18:51:10.559  INFO 16028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-10 18:51:10.560  INFO 16028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 346 ms
+2020-09-10 18:51:10.930  INFO 16028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:51:10.980  INFO 16028 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-10 18:51:11.201  INFO 16028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-10 18:51:11.215  INFO 16028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-10 18:51:11.218  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : Started BlogApplication in 1.04 seconds (JVM running for 49.857)
+2020-09-10 18:51:11.219  INFO 16028 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-10 18:53:10.949  INFO 16028 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:53:10.950  INFO 16028 --- [Thread-24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2020-09-10 18:53:11.111  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-7NMSMS2 with PID 16028 (F:\IntelliJ IDEA\blog\target\classes started by ckh in F:\IntelliJ IDEA\blog)
+2020-09-10 18:53:11.112  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2020-09-10 18:53:12.052  INFO 16028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-10 18:53:12.054  INFO 16028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-10 18:53:12.054  INFO 16028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-10 18:53:12.154  INFO 16028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-10 18:53:12.154  INFO 16028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1040 ms
+2020-09-10 18:53:13.071  INFO 16028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:53:13.233  INFO 16028 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-10 18:53:13.646  INFO 16028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-10 18:53:13.661  INFO 16028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-10 18:53:13.665  INFO 16028 --- [restartedMain] com.ckh.blog.BlogApplication             : Started BlogApplication in 2.579 seconds (JVM running for 172.303)
+2020-09-10 18:53:13.666  INFO 16028 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-09-10 18:53:51.912  INFO 16620 --- [restartedMain] com.ckh.blog.BlogApplication             : Starting BlogApplication on DESKTOP-7NMSMS2 with PID 16620 (F:\IntelliJ IDEA\blog\target\classes started by ckh in F:\IntelliJ IDEA\blog)
+2020-09-10 18:53:51.915  INFO 16620 --- [restartedMain] com.ckh.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2020-09-10 18:53:52.005  INFO 16620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-10 18:53:52.005  INFO 16620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-10 18:53:53.333  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-09-10 18:53:53.342  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-10 18:53:53.342  INFO 16620 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-10 18:53:53.423  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-10 18:53:53.423  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1418 ms
+2020-09-10 18:53:54.210  INFO 16620 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-10 18:53:54.300  INFO 16620 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-09-10 18:53:54.637  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-10 18:53:54.678  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-10 18:53:54.687  INFO 16620 --- [restartedMain] com.ckh.blog.BlogApplication             : Started BlogApplication in 3.255 seconds (JVM running for 4.603)
+2020-09-10 18:54:22.237  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-10 18:54:22.238  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-10 18:54:22.250  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-09-10 18:54:27.291  INFO 16620 --- [http-nio-8080-exec-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    <mapper namespace="com.ckh.blog.mapper.UserMapper">
+    <select id="findByUsernameAndPassword" parameterType="java.lang.String" resultType="user">
+        select * from t_user where username = #{username} and password = #{password};
+    </select>
+
+    <insert id="saveUser" parameterType="user">
+        insert into t_user(nickname, phoneNumber, username, password, email, avatar, type, create_time, update_time)
+        values (#{nickName}, #{phoneNumber}, #{username}, #{password}, #{email}, #{avatar}, #{type}, #{createTime}, #{updateTime})
+    </insert>
+
+</mapper>
